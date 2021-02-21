@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Pace Loader" lan="LAN_PLUGIN_PACE_NAME" version="1.0" date="2021-02-21" compatibility="2.0" installRequired="true" >
+	<author name="OxigenO2" url="https://github.com/oxigeno2" />
+	<summary lan="LAN_PLUGIN_PACE_SUMM">Loader for your site</summary>
+	<description lan="LAN_PLUGIN_PACE_DESC">Page Load progress is based on pace.js library and supports 13 different templates.</description>
+	<keywords>
+		<word>enhancement</word>
+		<word>loader</word>
+		<word>loading</word>
+	</keywords>
+	<category>misc</category>
+	<copyright>OxigenO2</copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="images/paceloader_32.png" iconSmall="images/paceloader_16.png" icon128="images/paceloader_128.png" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='paceloader_theme'>minimal</pref>
+		<pref name='paceloader_color'>green</pref>
+	</pluginPrefs>
+</e107Plugin>
